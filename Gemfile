@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
+gem 'bcrypt',               '3.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass',       '3.2.0.0'
 # Use SCSS for stylesheets
@@ -52,4 +53,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.11.1'
 end
