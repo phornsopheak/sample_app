@@ -1,0 +1,19 @@
+
+development:
+  cloud_name: duzklgphq
+  api_key: '338557727658711'
+  api_secret: 6Beb8U27xROlbzdJ1np_eKcIRus
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: duzklgphq
+  api_key: '338557727658711'
+  api_secret: 6Beb8U27xROlbzdJ1np_eKcIRus
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: duzklgphq
+  api_key: '338557727658711'
+  api_secret: 6Beb8U27xROlbzdJ1np_eKcIRus
+  enhance_image_tag: true
+  static_image_support: false
